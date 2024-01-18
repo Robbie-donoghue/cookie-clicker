@@ -1,0 +1,57 @@
+html 
+{
+    background-color: salmon;
+    color: white;
+    font-family: sans-serif;
+}
+
+#numberOfCookies 
+{
+    font-size: 4em;
+    text-align: center;
+
+}
+div
+{
+    display: block;
+}
+#cookiesPerSecond
+{
+    font-size: 1.5em;
+    text-align:center;
+}
+#buttonHolder
+{
+    display:flex;
+    justify-content:center;
+    padding: 10px;
+    border-bottom: 1px solid salmon
+}
+#thebutton
+{
+    height: 100px;
+    width:100px;
+    border: none;
+    background: saddlebrown;
+    border-radius:50px;
+}
+#errorMessage
+{
+    color:orange;
+    text-align: center;
+    font-size: 1.5em;
+}
+#shop
+{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.shop-item
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.4em;
+    border-bottom: 1px salmon;
+}
