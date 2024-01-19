@@ -22,19 +22,29 @@ div
 }
 #buttonHolder
 {
+   
     display:flex;
     justify-content:center;
     padding: 10px;
-    border-bottom: 1px solid salmon
+    border-bottom: 1px solid salmon;
+    flex-direction: row;
 }
-#thebutton
+#cartoonCookie
 {
+   
     height: 100px;
     width:100px;
     border: none;
-    background: saddlebrown;
     border-radius:50px;
+
 }
+#cartoonCookie:hover
+ {
+    border: 5px solid red;
+    cursor: pointer;
+}
+
+
 #errorMessage
 {
     color:orange;
