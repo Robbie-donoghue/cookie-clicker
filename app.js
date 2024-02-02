@@ -1,5 +1,9 @@
 // start cookies count at 0
 let cookies = 0;
+let purchasedItems = []
+let shop = document.getElementById("shop")
+
+
 
 document.body.onload = function startGame()
 {
@@ -56,11 +60,28 @@ function resetCookies(event)
 //array of objects that represent each of upgrades, price, how much they increase cookies by 
 //empty array called purchased items
 //function called render shop, loops thrpugh each stpred item and creatse at p tag, item.name
+function renderShop()
+{
+    shopItems.forEach(function ()
+    {
+         let pName =  document.createElement('p')
+         let pPrice = doucment.createElement('p')
+      
+    })
+}
 // add a button in shop called buy
 // when they click on button it runs a function which checks if you can buy 
 //checks if you can buy item, if you can subtracts price from cookies
 //then pushes item puchased to empty array earlier
 //creates a div to store it in and classes to style it 
 // set cookies equal to a function called getcookies per second
+function getCookiesPerSecond()
+{
+   if purchasedItems.length
+    for( let i = 0; i< purchasedItems.length i ++)
+    {
+        sum += purchasedItems[i] 
+    }
+}
 //if they havent purchased anything we return it back as 1 
 // if that isnt true you do rest of function, variable start at 0 and loop through purchased item array 
